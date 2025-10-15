@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load the trained model
-model = pickle.load(open("model_pickle(1).pkl", "rb"))
+model = pickle.load(open("model_pickle.pkl", "rb"))
 
 # Set page title
 st.set_page_config(page_title="Breast Cancer Prediction App", page_icon="🩺")
